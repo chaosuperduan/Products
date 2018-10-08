@@ -1,0 +1,21 @@
+[W 180927 00:48:20 Passport:17] warming msg
+[D 180927 00:54:17 Passport:15] debug msg
+[I 180927 00:54:17 Passport:16] info msg
+[W 180927 00:54:17 Passport:17] warming msg
+[I 180927 00:54:17 web:2162] 200 GET / (127.0.0.1) 1.42ms
+[D 180927 00:56:00 Passport:15] debug msg
+[I 180927 00:56:00 Passport:16] info msg
+[W 180927 00:56:00 Passport:17] warming msg
+[I 180927 00:56:00 web:2162] 200 GET / (127.0.0.1) 1.17ms
+[D 180927 00:56:01 Passport:15] debug msg
+[I 180927 00:56:01 Passport:16] info msg
+[W 180927 00:56:01 Passport:17] warming msg
+[I 180927 00:56:01 web:2162] 200 GET / (127.0.0.1) 1.08ms
+[D 180927 00:56:02 Passport:15] debug msg
+[I 180927 00:56:02 Passport:16] info msg
+[W 180927 00:56:02 Passport:17] warming msg
+[I 180927 00:56:02 web:2162] 200 GET / (127.0.0.1) 0.98ms
+[D 180927 00:56:03 Passport:15] debug msg
+[I 180927 00:56:03 Passport:16] info msg
+[W 180927 00:56:03 Passport:17] warming msg
+[I 180927 00:56:03 web:2162] 200 GET / (127.0.0.1) 0.83ms
