@@ -14,8 +14,8 @@ settings = {
 #mysql
 mysql_options = dict(
     host='127.0.0.1',
-    database='itcast',
-    user='root1',
+    database='ihome',
+    user='root',
     password='dcdell88',
     charset='utf8',
 

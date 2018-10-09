@@ -19,3 +19,115 @@
 [I 180927 00:56:03 Passport:16] info msg
 [W 180927 00:56:03 Passport:17] warming msg
 [I 180927 00:56:03 web:2162] 200 GET / (127.0.0.1) 0.83ms
+[I 181009 23:00:01 autoreload:199] /Users/apple/PycharmProjects/Products/urls.py modified; restarting server
+[I 181009 23:14:41 autoreload:199] /Users/apple/PycharmProjects/Products/urls.py modified; restarting server
+[D 181009 23:51:19 Passport:15] debug msg
+[I 181009 23:51:19 Passport:16] info msg
+[W 181009 23:51:19 Passport:17] warming msg
+[I 181009 23:51:19 web:2162] 200 GET / (127.0.0.1) 1.38ms
+[D 181009 23:51:25 Passport:15] debug msg
+[I 181009 23:51:25 Passport:16] info msg
+[W 181009 23:51:25 Passport:17] warming msg
+[I 181009 23:51:25 web:2162] 200 GET / (127.0.0.1) 0.71ms
+[D 181009 23:56:51 Passport:15] debug msg
+[I 181009 23:56:51 Passport:16] info msg
+[W 181009 23:56:51 Passport:17] warming msg
+[I 181009 23:56:51 web:2162] 200 GET / (127.0.0.1) 0.75ms
+[E 181009 23:57:51 VerifyCode:23] 'ImageCodeHandler' object has no attribute 'redis'
+[I 181009 23:57:51 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 21.50ms
+[I 181009 23:57:51 web:2162] 200 GET /favicon.ico (127.0.0.1) 6.74ms
+[E 181009 23:59:06 VerifyCode:23] 'ImageCodeHandler' object has no attribute 'redis'
+[I 181009 23:59:06 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 8.61ms
+[I 181009 23:59:06 web:2162] 200 GET /favicon.ico (127.0.0.1) 1.11ms
+[E 181010 00:03:19 VerifyCode:23] 'ImageCodeHandler' object has no attribute 'redis'
+[I 181010 00:03:19 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 8.14ms
+[I 181010 00:08:04 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/BaseHandler.py modified; restarting server
+[E 181010 00:08:12 VerifyCode:23] 'Application' object has no attribute 'redis'
+[I 181010 00:08:12 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 17.38ms
+[E 181010 00:08:14 VerifyCode:23] 'Application' object has no attribute 'redis'
+[I 181010 00:08:14 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 8.68ms
+[E 181010 00:08:22 VerifyCode:23] 'Application' object has no attribute 'redis'
+[I 181010 00:08:22 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 8.49ms
+[E 181010 00:09:38 VerifyCode:23] 'Application' object has no attribute 'redis'
+[I 181010 00:09:38 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 9.79ms
+[E 181010 00:09:50 VerifyCode:23] 'Application' object has no attribute 'redis'
+[I 181010 00:09:50 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 7.03ms
+[I 181010 00:12:52 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181010 00:12:53 VerifyCode:24] 'Application' object has no attribute 'redis'
+[I 181010 00:12:53 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 17.74ms
+[E 181010 00:13:25 VerifyCode:24] 'Application' object has no attribute 'redis'
+[I 181010 00:13:25 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 10.40ms
+[I 181010 00:13:25 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181010 00:13:26 VerifyCode:26] 'Application' object has no attribute 'redis'
+[I 181010 00:13:26 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 18.89ms
+[E 181010 00:15:23 VerifyCode:26] 'Application' object has no attribute 'redis'
+[I 181010 00:15:23 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 8.00ms
+[E 181010 00:15:23 VerifyCode:26] 'Application' object has no attribute 'redis'
+[I 181010 00:15:23 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 7.35ms
+[I 181010 00:16:09 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181010 00:16:11 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:16:11 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 18.33ms
+[E 181010 00:16:12 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:16:12 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 7.98ms
+[I 181010 00:21:00 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181010 00:21:03 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:21:03 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 18.85ms
+[E 181010 00:22:22 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:22:22 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 7.94ms
+[E 181010 00:22:24 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:22:24 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 7.67ms
+[E 181010 00:31:59 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:31:59 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 8.02ms
+[E 181010 00:32:00 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:32:00 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 7.89ms
+[I 181010 00:35:31 autoreload:199] /Users/apple/PycharmProjects/Products/server.py modified; restarting server
+[E 181010 00:35:35 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:35:35 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 17.03ms
+[I 181010 00:36:08 autoreload:199] /Users/apple/PycharmProjects/Products/server.py modified; restarting server
+[E 181010 00:36:16 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:36:16 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 18.18ms
+[E 181010 00:36:32 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:36:32 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 8.94ms
+[E 181010 00:38:37 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:38:37 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 7.64ms
+[I 181010 00:42:39 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181010 00:44:18 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181010 00:44:51 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:44:51 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 18.94ms
+[I 181010 00:48:43 autoreload:199] /Users/apple/PycharmProjects/Products/config.py modified; restarting server
+[I 181010 00:52:57 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181010 00:53:08 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:53:08 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 17.15ms
+[I 181010 00:55:19 autoreload:199] /Users/apple/PycharmProjects/Products/server.py modified; restarting server
+[E 181010 00:55:20 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:55:20 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 18.17ms
+[I 181010 00:56:14 autoreload:199] /Users/apple/PycharmProjects/Products/server.py modified; restarting server
+[E 181010 00:57:41 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 00:57:41 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 18.29ms
+[E 181010 01:01:57 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 01:01:57 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 8.11ms
+[I 181010 01:02:37 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181010 01:02:38 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 01:02:38 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 19.15ms
+[I 181010 01:04:31 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/BaseHandler.py modified; restarting server
+[E 181010 01:04:33 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 01:04:33 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 19.43ms
+[I 181010 01:05:37 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181010 01:05:38 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 01:05:38 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 17.95ms
+[I 181010 01:08:16 autoreload:199] /Users/apple/PycharmProjects/Products/server.py modified; restarting server
+[E 181010 01:15:29 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 01:15:29 web:2162] 304 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 18.80ms
+[I 181010 01:15:50 autoreload:199] /Users/apple/PycharmProjects/Products/server.py modified; restarting server
+[E 181010 01:15:50 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 01:15:50 web:2162] 304 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 18.11ms
+[I 181010 01:16:31 autoreload:199] /Users/apple/PycharmProjects/Products/server.py modified; restarting server
+[E 181010 01:22:44 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 01:22:44 web:2162] 304 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 17.85ms
+[E 181010 01:23:13 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 01:23:13 web:2162] 304 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 7.78ms
+[I 181010 01:23:32 autoreload:199] /Users/apple/PycharmProjects/Products/server.py modified; restarting server
+[E 181010 01:23:41 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 01:23:41 web:2162] 304 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 17.97ms
+[E 181010 01:23:54 VerifyCode:27] 'Application' object has no attribute 'redis'
+[I 181010 01:23:54 web:2162] 200 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 17.49ms
