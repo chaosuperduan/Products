@@ -3,6 +3,7 @@ import logging
 from BaseHandler import BaseHandler
 from utils.captcha.captcha import captcha
 import re
+import constants
 from constants import PIC_CODE_EXPIRES_SECONDS
 
 class ImageCodeHandler(BaseHandler):

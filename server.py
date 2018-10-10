@@ -2,7 +2,7 @@
 import tornado.web
 import logging
 import config
-
+import constants
 import tornado.ioloop
 import tornado.options
 import tornado.httpserver
@@ -56,7 +56,7 @@ def main():
 
 
 
-    app  = tornado.web.Application(urls,**config.settings)
+    app  = Application(urls,**config.settings)
 
     http_server = tornado.httpserver.HTTPServer(app)
     http_server.listen(options.port)

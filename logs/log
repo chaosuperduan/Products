@@ -131,3 +131,49 @@
 [I 181010 01:23:41 web:2162] 304 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 17.97ms
 [E 181010 01:23:54 VerifyCode:27] 'Application' object has no attribute 'redis'
 [I 181010 01:23:54 web:2162] 200 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 17.49ms
+[E 181010 20:12:34 VerifyCode:27] global name 'constants' is not defined
+[I 181010 20:12:34 web:2162] 304 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 34.34ms
+[E 181010 20:13:20 VerifyCode:27] global name 'constants' is not defined
+[I 181010 20:13:20 web:2162] 304 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 8.38ms
+[I 181010 20:13:21 autoreload:199] /Users/apple/PycharmProjects/Products/server.py modified; restarting server
+[E 181010 20:14:06 VerifyCode:27] global name 'constants' is not defined
+[I 181010 20:14:06 web:2162] 304 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 18.20ms
+[E 181010 20:16:33 VerifyCode:27] global name 'constants' is not defined
+[I 181010 20:16:33 web:2162] 304 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 12.10ms
+[E 181010 20:17:14 VerifyCode:27] global name 'constants' is not defined
+[I 181010 20:17:14 web:2162] 304 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 12.16ms
+[I 181010 20:18:17 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181010 20:18:21 VerifyCode:28] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181010 20:18:21 web:2162] 304 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 22.25ms
+[I 181010 20:27:50 web:2162] 200 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 10.17ms
+[I 181010 23:26:21 autoreload:199] /Users/apple/PycharmProjects/Products/urls.py modified; restarting server
+[I 181010 23:26:27 autoreload:199] /Users/apple/PycharmProjects/Products/urls.py modified; restarting server
+[I 181010 23:26:39 autoreload:199] /Users/apple/PycharmProjects/Products/urls.py modified; restarting server
+[D 181011 00:25:11 Passport:15] debug msg
+[I 181011 00:25:11 Passport:16] info msg
+[W 181011 00:25:11 Passport:17] warming msg
+[I 181011 00:25:11 web:2162] 200 GET / (127.0.0.1) 1.78ms
+[I 181011 00:38:04 web:2162] 200 GET /register.html (127.0.0.1) 8.36ms
+[I 181011 00:38:04 web:2162] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.38ms
+[I 181011 00:38:04 web:2162] 200 GET /static/css/reset.css (127.0.0.1) 1.23ms
+[I 181011 00:38:04 web:2162] 200 GET /static/css/ihome/main.css (127.0.0.1) 1.20ms
+[I 181011 00:38:04 web:2162] 200 GET /static/css/ihome/register.css (127.0.0.1) 1.32ms
+[I 181011 00:38:04 web:2162] 200 GET /static/js/ihome/register.js (127.0.0.1) 1.21ms
+[I 181011 00:38:04 web:2162] 200 GET /static/images/logo@128x59.png (127.0.0.1) 1.22ms
+[I 181011 00:38:04 web:2162] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 18.97ms
+[I 181011 00:38:04 web:2162] 200 GET /static/js/jquery.min.js (127.0.0.1) 8.01ms
+[I 181011 00:38:04 web:2162] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.16ms
+[I 181011 00:38:04 web:2162] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 2.35ms
+[W 181011 00:38:04 web:2162] 404 GET /api/piccode?pcodeid=&codeid=237f3b7e-1c30-4113-b37f-39800296ff04 (127.0.0.1) 3.75ms
+[I 181011 00:40:49 web:2162] 304 GET /register.html (127.0.0.1) 0.66ms
+[I 181011 00:40:49 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 0.89ms
+[I 181011 00:40:49 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.61ms
+[I 181011 00:40:49 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.72ms
+[I 181011 00:40:49 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.93ms
+[I 181011 00:40:49 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.86ms
+[I 181011 00:40:49 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.81ms
+[I 181011 00:40:49 web:2162] 200 GET /static/js/ihome/register.js (127.0.0.1) 1.07ms
+[I 181011 00:40:49 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.81ms
+[I 181011 00:40:49 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.92ms
+[I 181011 00:40:49 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 17.08ms
+[I 181011 00:41:28 web:2162] 200 GET /api/imagecode?pcodeid=4968147e-0f05-4a0e-b483-f246568c3efa&codeid=4968147e-0f05-4a0e-b483-f246568c3efa (127.0.0.1) 8.00ms
