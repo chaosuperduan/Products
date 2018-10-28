@@ -9,7 +9,7 @@ settings = {
     "template_path":os.path.join(os.path.dirname(__file__),"template"),
     "debug":True,
     "cookie_secret":"kb8LwR4MSASQzT+HWLqy4YWnN1DJcEKJrjblnr77uSw=",
-    "xsrf_cookies":True,
+    "xsrf_cookies":False,
 }
 #mysql
 mysql_options = dict(

@@ -177,3 +177,634 @@
 [I 181011 00:40:49 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.92ms
 [I 181011 00:40:49 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 17.08ms
 [I 181011 00:41:28 web:2162] 200 GET /api/imagecode?pcodeid=4968147e-0f05-4a0e-b483-f246568c3efa&codeid=4968147e-0f05-4a0e-b483-f246568c3efa (127.0.0.1) 8.00ms
+[I 181011 01:16:33 web:2162] 304 GET /register.html (127.0.0.1) 3.53ms
+[I 181011 01:16:33 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.21ms
+[I 181011 01:16:33 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.51ms
+[I 181011 01:16:33 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 1.48ms
+[I 181011 01:16:33 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.70ms
+[I 181011 01:16:33 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 1.46ms
+[I 181011 01:16:33 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.18ms
+[I 181011 01:16:33 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.60ms
+[I 181011 01:16:33 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.49ms
+[I 181011 01:16:33 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 1.54ms
+[I 181011 01:16:34 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 17.62ms
+[I 181011 01:16:35 web:2162] 304 GET /register.html (127.0.0.1) 1.10ms
+[I 181011 01:16:35 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.46ms
+[I 181011 01:16:35 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.20ms
+[I 181011 01:16:35 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 1.10ms
+[I 181011 01:16:35 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.16ms
+[I 181011 01:16:35 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.12ms
+[I 181011 01:16:35 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.03ms
+[I 181011 01:16:35 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.40ms
+[I 181011 01:16:35 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 1.14ms
+[I 181011 01:16:35 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 1.13ms
+[I 181011 01:16:35 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 11.96ms
+[I 181011 01:16:37 web:2162] 200 GET /api/imagecode?pcodeid=7e14d8d3-e4c7-4c80-88d3-6ff44ff9dfd6&codeid=7e14d8d3-e4c7-4c80-88d3-6ff44ff9dfd6 (127.0.0.1) 12.62ms
+[D 181014 17:46:30 Passport:15] debug msg
+[I 181014 17:46:30 Passport:16] info msg
+[W 181014 17:46:30 Passport:17] warming msg
+[I 181014 17:46:30 web:2162] 200 GET / (127.0.0.1) 2.50ms
+[D 181014 17:46:36 Passport:15] debug msg
+[I 181014 17:46:36 Passport:16] info msg
+[W 181014 17:46:36 Passport:17] warming msg
+[I 181014 17:46:36 web:2162] 304 GET / (127.0.0.1) 0.76ms
+[W 181014 17:46:40 web:2162] 404 GET /register (127.0.0.1) 5.07ms
+[W 181014 17:48:52 web:2162] 404 GET /register (127.0.0.1) 1.20ms
+[E 181014 17:48:54 VerifyCode:28] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181014 17:48:54 web:2162] 200 GET /api/imagecode?codeid&pcodeid (127.0.0.1) 50.18ms
+[W 181014 17:49:03 web:2162] 404 GET /api/register (127.0.0.1) 1.19ms
+[E 181014 17:49:35 VerifyCode:28] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181014 17:49:35 web:2162] 200 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 19.74ms
+[W 181014 17:49:47 web:2162] 404 GET /api/register (127.0.0.1) 1.19ms
+[W 181014 17:49:52 web:2162] 404 GET /api/register/ (127.0.0.1) 0.64ms
+[W 181014 17:52:01 web:2162] 404 GET /api/register (127.0.0.1) 0.96ms
+[W 181014 17:52:16 web:2162] 404 GET /api/register.html (127.0.0.1) 0.85ms
+[D 181014 17:53:41 Passport:15] debug msg
+[I 181014 17:53:41 Passport:16] info msg
+[W 181014 17:53:41 Passport:17] warming msg
+[I 181014 17:53:41 web:2162] 304 GET / (127.0.0.1) 0.82ms
+[W 181014 17:54:51 web:2162] 404 GET /register (127.0.0.1) 0.72ms
+[E 181014 17:59:45 VerifyCode:28] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181014 17:59:45 web:2162] 304 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 11.86ms
+[E 181014 18:00:20 VerifyCode:28] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181014 18:00:20 web:2162] 304 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 10.49ms
+[E 181014 18:00:21 VerifyCode:28] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181014 18:00:21 web:2162] 304 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 7.63ms
+[I 181014 18:03:39 web:2162] 200 GET /api/imagecode?codeid=123&pcodeid (127.0.0.1) 15.17ms
+[W 181014 18:03:43 web:2162] 404 GET /register (127.0.0.1) 0.77ms
+[I 181014 18:50:42 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 13.04ms
+[I 181014 18:50:42 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 11.48ms
+[W 181014 18:51:05 web:1667] 403 POST /api/smscode (127.0.0.1): '_xsrf' argument missing from POST
+[W 181014 18:51:05 web:2162] 403 POST /api/smscode (127.0.0.1) 1.25ms
+[I 181014 19:52:28 web:2162] 304 GET /register.html (127.0.0.1) 1.27ms
+[I 181014 19:52:28 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.88ms
+[I 181014 19:52:28 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.28ms
+[I 181014 19:52:28 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.00ms
+[I 181014 19:52:28 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.64ms
+[I 181014 19:52:28 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.13ms
+[I 181014 19:52:28 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 1.02ms
+[I 181014 19:52:28 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.12ms
+[I 181014 19:52:28 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 1.15ms
+[I 181014 19:52:28 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.99ms
+[I 181014 19:52:28 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 8.16ms
+[I 181014 20:00:41 web:2162] 200 GET /api/imagecode?pcodeid=05529423-e591-4ce5-ba48-8fb43a5bb65f&codeid=05529423-e591-4ce5-ba48-8fb43a5bb65f (127.0.0.1) 8.21ms
+[I 181014 21:25:11 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181028 23:53:03 web:2162] 304 GET /register.html (127.0.0.1) 8.68ms
+[I 181028 23:53:03 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.18ms
+[I 181028 23:53:03 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.32ms
+[I 181028 23:53:03 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 1.18ms
+[I 181028 23:53:03 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.95ms
+[I 181028 23:53:03 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.01ms
+[I 181028 23:53:03 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.68ms
+[I 181028 23:53:03 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 1.14ms
+[I 181028 23:53:03 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 1.16ms
+[I 181028 23:53:03 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.25ms
+[I 181028 23:53:03 web:2162] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 2.45ms
+[E 181028 23:53:03 VerifyCode:33] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181028 23:53:03 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 33.15ms
+[I 181028 23:53:03 web:2162] 200 GET /favicon.ico (127.0.0.1) 1.40ms
+[E 181028 23:53:06 VerifyCode:33] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181028 23:53:06 web:2162] 200 GET /api/imagecode?pcodeid=d86d2087-74cc-4bc5-baf5-5b0e0c0bf7f0&codeid=d86d2087-74cc-4bc5-baf5-5b0e0c0bf7f0 (127.0.0.1) 9.25ms
+[E 181028 23:53:06 VerifyCode:33] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181028 23:53:07 web:2162] 200 GET /api/imagecode?pcodeid=bd4d1bd3-6315-4926-846c-3120dcdc558d&codeid=bd4d1bd3-6315-4926-846c-3120dcdc558d (127.0.0.1) 8.25ms
+[I 181028 23:53:33 web:2162] 304 GET /register.html (127.0.0.1) 0.86ms
+[I 181028 23:53:33 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.08ms
+[I 181028 23:53:33 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.89ms
+[I 181028 23:53:33 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.61ms
+[I 181028 23:53:33 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.92ms
+[I 181028 23:53:33 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.92ms
+[I 181028 23:53:33 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.87ms
+[I 181028 23:53:33 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.98ms
+[I 181028 23:53:33 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 1.01ms
+[I 181028 23:53:33 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.65ms
+[E 181028 23:53:33 VerifyCode:33] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181028 23:53:33 web:2162] 304 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 8.11ms
+[I 181028 23:54:17 web:2162] 304 GET /register.html (127.0.0.1) 0.69ms
+[I 181028 23:54:17 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.41ms
+[I 181028 23:54:17 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.99ms
+[I 181028 23:54:17 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.83ms
+[I 181028 23:54:17 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.06ms
+[I 181028 23:54:17 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.84ms
+[I 181028 23:54:17 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.62ms
+[I 181028 23:54:17 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.95ms
+[I 181028 23:54:17 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.83ms
+[I 181028 23:54:17 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.72ms
+[E 181028 23:54:17 VerifyCode:33] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181028 23:54:17 web:2162] 304 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 9.36ms
+[I 181028 23:54:53 web:2162] 304 GET /register.html (127.0.0.1) 0.77ms
+[I 181028 23:54:53 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 0.96ms
+[I 181028 23:54:53 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.89ms
+[I 181028 23:54:53 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.64ms
+[I 181028 23:54:53 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.95ms
+[I 181028 23:54:53 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.03ms
+[I 181028 23:54:53 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.30ms
+[I 181028 23:54:53 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.94ms
+[I 181028 23:54:53 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.83ms
+[I 181028 23:54:53 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.73ms
+[E 181028 23:54:53 VerifyCode:33] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181028 23:54:53 web:2162] 304 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 8.96ms
+[E 181028 23:54:55 VerifyCode:33] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181028 23:54:55 web:2162] 200 GET /api/imagecode?pcodeid=f2e44441-3dc4-456a-b20f-382e62276a2f&codeid=f2e44441-3dc4-456a-b20f-382e62276a2f (127.0.0.1) 10.09ms
+[E 181028 23:54:55 VerifyCode:33] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181028 23:54:55 web:2162] 200 GET /api/imagecode?pcodeid=107b80f3-acc0-4baf-87a0-3895f18f0cdb&codeid=107b80f3-acc0-4baf-87a0-3895f18f0cdb (127.0.0.1) 10.11ms
+[E 181028 23:54:56 VerifyCode:33] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181028 23:54:56 web:2162] 200 GET /api/imagecode?pcodeid=9f769dcc-e83b-475b-89fb-2a89d0d2a76f&codeid=9f769dcc-e83b-475b-89fb-2a89d0d2a76f (127.0.0.1) 11.35ms
+[I 181029 00:04:38 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181029 00:08:29 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181029 00:08:40 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181029 00:10:46 autoreload:199] /Users/apple/PycharmProjects/Products/urls.py modified; restarting server
+[I 181029 00:12:20 web:2162] 304 GET /register.html (127.0.0.1) 8.53ms
+[I 181029 00:12:20 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.30ms
+[I 181029 00:12:20 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.87ms
+[I 181029 00:12:20 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.73ms
+[I 181029 00:12:20 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.85ms
+[I 181029 00:12:20 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.76ms
+[I 181029 00:12:20 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.90ms
+[I 181029 00:12:20 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.71ms
+[I 181029 00:12:20 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.72ms
+[I 181029 00:12:20 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.68ms
+[E 181029 00:12:20 VerifyCode:33] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181029 00:12:20 web:2162] 304 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 20.31ms
+[I 181029 00:13:32 autoreload:199] /Users/apple/PycharmProjects/Products/config.py modified; restarting server
+[I 181029 00:14:13 web:2162] 304 GET /register.html (127.0.0.1) 7.83ms
+[I 181029 00:14:13 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.41ms
+[I 181029 00:14:13 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.35ms
+[I 181029 00:14:13 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181029 00:14:20 web:2162] 304 GET /register.html (127.0.0.1) 6.83ms
+[I 181029 00:14:20 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.18ms
+[I 181029 00:14:20 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.90ms
+[I 181029 00:14:20 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.85ms
+[I 181029 00:14:20 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.69ms
+[I 181029 00:14:20 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.19ms
+[I 181029 00:14:20 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.83ms
+[I 181029 00:14:20 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 1.05ms
+[I 181029 00:14:20 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.03ms
+[I 181029 00:14:20 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.72ms
+[E 181029 00:14:20 VerifyCode:34] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181029 00:14:20 web:2162] 304 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 20.92ms
+[I 181029 00:14:21 web:2162] 304 GET /register.html (127.0.0.1) 0.91ms
+[I 181029 00:14:21 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.30ms
+[I 181029 00:14:21 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.89ms
+[I 181029 00:14:21 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.70ms
+[I 181029 00:14:21 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.89ms
+[I 181029 00:14:21 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.72ms
+[I 181029 00:14:21 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.96ms
+[I 181029 00:14:22 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.06ms
+[I 181029 00:14:22 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 1.18ms
+[I 181029 00:14:22 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.95ms
+[E 181029 00:14:22 VerifyCode:34] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181029 00:14:22 web:2162] 304 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 9.34ms
+[I 181029 00:14:22 web:2162] 304 GET /register.html (127.0.0.1) 0.85ms
+[I 181029 00:14:22 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.33ms
+[I 181029 00:14:22 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.98ms
+[I 181029 00:14:22 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.83ms
+[I 181029 00:14:22 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.59ms
+[I 181029 00:14:22 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.71ms
+[I 181029 00:14:22 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.24ms
+[I 181029 00:14:22 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.88ms
+[I 181029 00:14:22 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.93ms
+[I 181029 00:14:22 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.86ms
+[E 181029 00:14:23 VerifyCode:34] Error 61 connecting to 127.0.0.1:6379. Connection refused.
+[I 181029 00:14:23 web:2162] 304 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 9.18ms
+[I 181029 00:16:51 web:2162] 304 GET /register.html (127.0.0.1) 1.13ms
+[I 181029 00:16:51 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.76ms
+[I 181029 00:16:51 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.93ms
+[I 181029 00:16:51 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.84ms
+[I 181029 00:16:51 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.67ms
+[I 181029 00:16:51 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.65ms
+[I 181029 00:16:51 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.89ms
+[I 181029 00:16:51 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.64ms
+[I 181029 00:16:51 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.83ms
+[I 181029 00:16:51 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.71ms
+[I 181029 00:16:51 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 10.61ms
+[E 181029 00:17:01 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 00:17:01 web:2162] 500 POST /api/smscode (127.0.0.1) 8.39ms
+[I 181029 00:17:59 web:2162] 304 GET /register.html (127.0.0.1) 0.85ms
+[I 181029 00:17:59 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.20ms
+[I 181029 00:17:59 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.99ms
+[I 181029 00:17:59 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.70ms
+[I 181029 00:17:59 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.63ms
+[I 181029 00:17:59 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.10ms
+[I 181029 00:17:59 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.70ms
+[I 181029 00:17:59 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.87ms
+[I 181029 00:17:59 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.72ms
+[I 181029 00:17:59 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.95ms
+[I 181029 00:17:59 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 9.69ms
+[E 181029 00:18:09 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 00:18:09 web:2162] 500 POST /api/smscode (127.0.0.1) 1.27ms
+[I 181029 00:19:10 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181029 00:19:16 web:2162] 304 GET /register.html (127.0.0.1) 6.97ms
+[I 181029 00:19:16 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.58ms
+[I 181029 00:19:16 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.04ms
+[I 181029 00:19:16 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.88ms
+[I 181029 00:19:16 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.69ms
+[I 181029 00:19:16 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 2.85ms
+[I 181029 00:19:16 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.26ms
+[I 181029 00:19:16 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.95ms
+[I 181029 00:19:16 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.21ms
+[I 181029 00:19:16 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.82ms
+[I 181029 00:19:17 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 19.58ms
+[I 181029 00:19:20 web:2162] 200 GET /api/imagecode?pcodeid=0e56b910-bc7b-4431-9b5a-be242a0e3d3a&codeid=0e56b910-bc7b-4431-9b5a-be242a0e3d3a (127.0.0.1) 9.34ms
+[E 181029 00:19:29 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 00:19:29 web:2162] 500 POST /api/smscode (127.0.0.1) 2.53ms
+[W 181029 00:21:46 web:2162] 405 POST /api/register (127.0.0.1) 0.63ms
+[I 181029 00:22:08 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 9.41ms
+[W 181029 00:22:53 web:2162] 405 POST /api/register (127.0.0.1) 1.03ms
+[E 181029 00:24:46 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 00:24:46 web:2162] 500 POST /api/smscode (127.0.0.1) 1.28ms
+[I 181029 00:25:10 web:2162] 304 GET /register.html (127.0.0.1) 0.76ms
+[I 181029 00:25:10 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.39ms
+[I 181029 00:25:10 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.73ms
+[I 181029 00:25:10 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.83ms
+[I 181029 00:25:10 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.78ms
+[I 181029 00:25:10 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.75ms
+[I 181029 00:25:10 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.20ms
+[I 181029 00:25:10 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 1.13ms
+[I 181029 00:25:10 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.79ms
+[I 181029 00:25:10 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.90ms
+[I 181029 00:25:11 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 10.33ms
+[E 181029 00:25:15 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 00:25:15 web:2162] 500 POST /api/smscode (127.0.0.1) 10.59ms
+[I 181029 00:33:48 web:2162] 304 GET /register.html (127.0.0.1) 0.78ms
+[I 181029 00:33:48 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.29ms
+[I 181029 00:33:48 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.32ms
+[I 181029 00:33:48 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.80ms
+[I 181029 00:33:48 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.85ms
+[I 181029 00:33:48 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.14ms
+[I 181029 00:33:48 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.06ms
+[I 181029 00:33:48 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.91ms
+[I 181029 00:33:48 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.84ms
+[I 181029 00:33:48 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.99ms
+[I 181029 00:33:48 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 8.22ms
+[I 181029 00:33:48 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/BaseHandler.py modified; restarting server
+[E 181029 00:34:00 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 00:34:00 web:2162] 500 POST /api/smscode (127.0.0.1) 2.76ms
+[I 181029 00:43:53 web:2162] 304 GET /register.html (127.0.0.1) 7.50ms
+[I 181029 00:43:53 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 0.99ms
+[I 181029 00:43:53 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.81ms
+[I 181029 00:43:53 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.70ms
+[I 181029 00:43:53 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.87ms
+[I 181029 00:43:53 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.61ms
+[I 181029 00:43:53 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.66ms
+[I 181029 00:43:53 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.18ms
+[I 181029 00:43:53 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.67ms
+[I 181029 00:43:53 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.93ms
+[I 181029 00:43:53 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 22.73ms
+[E 181029 00:43:55 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 00:43:55 web:2162] 500 POST /api/smscode (127.0.0.1) 1.00ms
+[I 181029 00:56:09 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181029 00:57:17 web:2162] 304 GET /register.html (127.0.0.1) 7.31ms
+[I 181029 00:57:17 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.47ms
+[I 181029 00:57:17 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.88ms
+[I 181029 00:57:17 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.67ms
+[I 181029 00:57:17 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.78ms
+[I 181029 00:57:17 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 2.34ms
+[I 181029 00:57:17 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.97ms
+[I 181029 00:57:17 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.81ms
+[I 181029 00:57:17 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.68ms
+[I 181029 00:57:17 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.90ms
+[I 181029 00:57:17 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 18.52ms
+[I 181029 00:58:01 web:2162] 200 GET /api/imagecode?pcodeid=76e45af0-6ade-43f0-baee-ebbf1a991715&codeid=76e45af0-6ade-43f0-baee-ebbf1a991715 (127.0.0.1) 8.68ms
+[I 181029 01:03:34 web:2162] 304 GET /register.html (127.0.0.1) 0.70ms
+[I 181029 01:03:34 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.75ms
+[I 181029 01:03:34 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.78ms
+[I 181029 01:03:34 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.06ms
+[I 181029 01:03:34 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.09ms
+[I 181029 01:03:34 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.63ms
+[I 181029 01:03:34 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.68ms
+[I 181029 01:03:34 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.06ms
+[I 181029 01:03:34 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.87ms
+[I 181029 01:03:34 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.66ms
+[I 181029 01:03:34 web:2162] 200 GET /api/imagecode?pcodeid=&codeid= (127.0.0.1) 9.93ms
+[I 181029 01:03:47 web:2162] 200 GET /api/imagecode?pcodeid=6431a092-c7e3-4a92-abb3-21fb0e6f26bd&codeid=6431a092-c7e3-4a92-abb3-21fb0e6f26bd (127.0.0.1) 8.86ms
+[E 181029 01:05:10 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:05:10 web:2162] 500 POST /api/smscode (127.0.0.1) 2.49ms
+[E 181029 01:07:24 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:07:24 web:2162] 500 POST /api/smscode (127.0.0.1) 1.08ms
+[E 181029 01:07:43 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:07:43 web:2162] 500 POST /api/smscode (127.0.0.1) 1.66ms
+[E 181029 01:08:09 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:08:09 web:2162] 500 POST /api/smscode (127.0.0.1) 0.96ms
+[E 181029 01:08:53 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:08:53 web:2162] 500 POST /api/smscode (127.0.0.1) 1.18ms
+[E 181029 01:09:23 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:09:23 web:2162] 500 POST /api/smscode (127.0.0.1) 1.06ms
+[E 181029 01:13:04 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:13:04 web:2162] 500 POST /api/smscode (127.0.0.1) 1.17ms
+[E 181029 01:14:58 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:14:58 web:2162] 500 POST /api/smscode (127.0.0.1) 0.99ms
+[E 181029 01:15:11 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:15:11 web:2162] 500 POST /api/smscode (127.0.0.1) 1.02ms
+[I 181029 01:21:24 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/BaseHandler.py modified; restarting server
+[E 181029 01:21:37 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:21:37 web:2162] 500 POST /api/smscode (127.0.0.1) 3.28ms
+[E 181029 01:21:49 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 51, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:21:49 web:2162] 500 POST /api/smscode (127.0.0.1) 1.36ms
+[I 181029 01:23:49 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181029 01:23:50 web:2162] 200 POST /api/smscode (127.0.0.1) 1.28ms
+[I 181029 01:24:03 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181029 01:24:04 web:2162] 200 POST /api/smscode (127.0.0.1) 1.05ms
+[I 181029 01:24:37 web:2162] 200 POST /api/smscode (127.0.0.1) 0.68ms
+[I 181029 01:25:00 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181029 01:25:18 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181029 01:25:20 VerifyCode:49] 18666208770
+[I 181029 01:25:20 web:2162] 200 POST /api/smscode (127.0.0.1) 1.45ms
+[I 181029 01:26:24 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181029 01:26:24 VerifyCode:49] 18666208770
+[E 181029 01:26:24 VerifyCode:51] 6431a092-c7e3-4a92-abb3-21fb0e6f26bd
+[I 181029 01:26:24 web:2162] 200 POST /api/smscode (127.0.0.1) 1.38ms
+[I 181029 01:27:07 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181029 01:27:38 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181029 01:27:39 VerifyCode:49] 18666208770
+[E 181029 01:27:39 VerifyCode:51] 6431a092-c7e3-4a92-abb3-21fb0e6f26bd
+[E 181029 01:27:39 VerifyCode:53] abcd
+[I 181029 01:27:39 web:2162] 200 POST /api/smscode (127.0.0.1) 1.77ms
+[I 181029 01:28:30 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181029 01:28:32 VerifyCode:49] 18666208770
+[E 181029 01:28:32 VerifyCode:51] 6431a092-c7e3-4a92-abb3-21fb0e6f26bd
+[E 181029 01:28:32 VerifyCode:53] abcd
+[E 181029 01:28:32 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 54, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:28:32 web:2162] 500 POST /api/smscode (127.0.0.1) 3.81ms
+[E 181029 01:31:08 VerifyCode:49] 18666208770
+[E 181029 01:31:08 VerifyCode:51] 6431a092-c7e3-4a92-abb3-21fb0e6f26bd
+[E 181029 01:31:08 VerifyCode:53] abcd
+[E 181029 01:31:08 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 54, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:31:08 web:2162] 500 POST /api/smscode (127.0.0.1) 1.18ms
+[E 181029 01:31:55 VerifyCode:49] 18666208770
+[E 181029 01:31:55 VerifyCode:51] 6431a092-c7e3-4a92-abb3-21fb0e6f26bd
+[E 181029 01:31:55 VerifyCode:53] abcd
+[E 181029 01:31:55 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 54, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:31:55 web:2162] 500 POST /api/smscode (127.0.0.1) 1.70ms
+[E 181029 01:32:21 VerifyCode:49] 18666208770
+[E 181029 01:32:21 VerifyCode:51] 6431a092-c7e3-4a92-abb3-21fb0e6f26bd
+[E 181029 01:32:21 VerifyCode:53] abcd
+[E 181029 01:32:21 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 54, in post
+        if not all(mobile,imge_code_id,imge_code_text):
+    TypeError: all() takes exactly one argument (3 given)
+[E 181029 01:32:21 web:2162] 500 POST /api/smscode (127.0.0.1) 1.32ms
+[I 181029 01:34:46 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181029 01:34:48 VerifyCode:49] 18666208770
+[E 181029 01:34:48 VerifyCode:51] 6431a092-c7e3-4a92-abb3-21fb0e6f26bd
+[E 181029 01:34:48 VerifyCode:53] abcd
+[I 181029 01:34:48 web:2162] 200 POST /api/smscode (127.0.0.1) 1.77ms
+[I 181029 01:35:15 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181029 01:35:16 VerifyCode:49] 18666208770
+[E 181029 01:35:16 VerifyCode:51] 6431a092-c7e3-4a92-abb3-21fb0e6f26bd
+[E 181029 01:35:16 VerifyCode:53] abcd
+[I 181029 01:35:16 web:2162] 200 POST /api/smscode (127.0.0.1) 1.67ms
+[I 181029 01:35:32 web:2162] 200 GET /api/imagecode?pcodeid=ba6d3c87-d02d-47eb-86fd-4663f6f12c22&codeid=ba6d3c87-d02d-47eb-86fd-4663f6f12c22 (127.0.0.1) 18.15ms
+[E 181029 01:37:42 VerifyCode:49] 18666208770
+[E 181029 01:37:42 VerifyCode:51] ba6d3c87-d02d-47eb-86fd-4663f6f12c22
+[E 181029 01:37:42 VerifyCode:53] glnc
+[I 181029 01:37:42 web:2162] 200 POST /api/smscode (127.0.0.1) 0.91ms
+[E 181029 01:37:42 VerifyCode:49] 18666208770
+[E 181029 01:37:42 VerifyCode:51] ba6d3c87-d02d-47eb-86fd-4663f6f12c22
+[E 181029 01:37:42 VerifyCode:53] glnc
+[I 181029 01:37:42 web:2162] 200 POST /api/smscode (127.0.0.1) 1.16ms
+[I 181029 01:39:44 web:2162] 200 GET /api/imagecode?pcodeid=40baa7d1-0bc1-4565-acec-164b980077da&codeid=40baa7d1-0bc1-4565-acec-164b980077da (127.0.0.1) 9.27ms
+[E 181029 01:40:44 VerifyCode:49] 18666208770
+[E 181029 01:40:44 VerifyCode:51] 40baa7d1-0bc1-4565-acec-164b980077da
+[E 181029 01:40:44 VerifyCode:53] pvk9
+[I 181029 01:40:44 web:2162] 200 POST /api/smscode (127.0.0.1) 0.97ms
+[I 181029 01:41:51 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181029 01:41:56 VerifyCode:49] 18666208770
+[E 181029 01:41:56 VerifyCode:51] 40baa7d1-0bc1-4565-acec-164b980077da
+[E 181029 01:41:56 VerifyCode:53] pvk9
+[I 181029 01:41:56 web:2162] 200 POST /api/smscode (127.0.0.1) 2.12ms
+[W 181029 01:45:16 web:2162] 405 POST /api/register (127.0.0.1) 1.65ms
+[E 181029 01:45:28 VerifyCode:49] 18666208770
+[E 181029 01:45:28 VerifyCode:51] 40baa7d1-0bc1-4565-acec-164b980077da
+[E 181029 01:45:28 VerifyCode:53] pvk9
+[I 181029 01:45:28 web:2162] 200 POST /api/smscode (127.0.0.1) 0.99ms
+[I 181029 01:46:14 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[I 181029 01:46:41 web:2162] 200 GET /api/imagecode?pcodeid=1af2f30b-2558-476a-9bb2-015e3202e198&codeid=1af2f30b-2558-476a-9bb2-015e3202e198 (127.0.0.1) 19.31ms
+[E 181029 01:47:36 VerifyCode:49] 18666208770
+[E 181029 01:47:36 VerifyCode:51] 1af2f30b-2558-476a-9bb2-015e3202e198
+[E 181029 01:47:36 VerifyCode:53] HDN6
+[E 181029 01:47:36 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 62, in post
+        logging(e)
+    TypeError: 'module' object is not callable
+[E 181029 01:47:36 web:2162] 500 POST /api/smscode (127.0.0.1) 2.59ms
+[E 181029 01:48:47 VerifyCode:49] 18666208770
+[E 181029 01:48:47 VerifyCode:51] 1af2f30b-2558-476a-9bb2-015e3202e198
+[E 181029 01:48:47 VerifyCode:53] HDN6
+[E 181029 01:48:47 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 62, in post
+        logging(e)
+    TypeError: 'module' object is not callable
+[E 181029 01:48:47 web:2162] 500 POST /api/smscode (127.0.0.1) 1.61ms
+[E 181029 01:48:48 VerifyCode:49] 18666208770
+[E 181029 01:48:48 VerifyCode:51] 1af2f30b-2558-476a-9bb2-015e3202e198
+[E 181029 01:48:48 VerifyCode:53] HDN6
+[E 181029 01:48:48 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 62, in post
+        logging(e)
+    TypeError: 'module' object is not callable
+[E 181029 01:48:48 web:2162] 500 POST /api/smscode (127.0.0.1) 14.88ms
+[I 181029 01:49:47 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181029 01:49:49 VerifyCode:49] 18666208770
+[E 181029 01:49:49 VerifyCode:51] 1af2f30b-2558-476a-9bb2-015e3202e198
+[E 181029 01:49:49 VerifyCode:53] HDN6
+[E 181029 01:49:49 VerifyCode:62] get() takes exactly 2 arguments (3 given)
+[I 181029 01:49:49 web:2162] 200 POST /api/smscode (127.0.0.1) 1.71ms
+[I 181029 01:52:03 web:2162] 200 GET /api/imagecode?pcodeid=df11e0f0-0077-4c56-b1a6-a5d7e56b52b2&codeid=df11e0f0-0077-4c56-b1a6-a5d7e56b52b2 (127.0.0.1) 19.51ms
+[E 181029 01:53:21 VerifyCode:49] 18666208770
+[E 181029 01:53:21 VerifyCode:51] df11e0f0-0077-4c56-b1a6-a5d7e56b52b2
+[E 181029 01:53:21 VerifyCode:53] YPJV
+[E 181029 01:53:21 VerifyCode:62] get() takes exactly 2 arguments (3 given)
+[I 181029 01:53:21 web:2162] 200 POST /api/smscode (127.0.0.1) 1.34ms
+[E 181029 01:54:19 VerifyCode:49] 18666208770
+[E 181029 01:54:19 VerifyCode:51] df11e0f0-0077-4c56-b1a6-a5d7e56b52b2
+[E 181029 01:54:19 VerifyCode:53] YPJV
+[E 181029 01:54:19 VerifyCode:62] get() takes exactly 2 arguments (3 given)
+[I 181029 01:54:19 web:2162] 200 POST /api/smscode (127.0.0.1) 1.42ms
+[I 181029 01:55:07 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181029 01:55:09 VerifyCode:49] 18666208770
+[E 181029 01:55:09 VerifyCode:51] df11e0f0-0077-4c56-b1a6-a5d7e56b52b2
+[E 181029 01:55:09 VerifyCode:53] YPJV
+[E 181029 01:55:09 VerifyCode:62] get() takes exactly 2 arguments (3 given)
+[I 181029 01:55:09 web:2162] 200 POST /api/smscode (127.0.0.1) 2.37ms
+[E 181029 01:55:10 VerifyCode:49] 18666208770
+[E 181029 01:55:10 VerifyCode:51] df11e0f0-0077-4c56-b1a6-a5d7e56b52b2
+[E 181029 01:55:10 VerifyCode:53] YPJV
+[E 181029 01:55:10 VerifyCode:62] get() takes exactly 2 arguments (3 given)
+[I 181029 01:55:10 web:2162] 200 POST /api/smscode (127.0.0.1) 1.46ms
+[I 181029 01:55:30 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/VerifyCode.py modified; restarting server
+[E 181029 01:55:33 VerifyCode:49] 18666208770
+[E 181029 01:55:33 VerifyCode:51] df11e0f0-0077-4c56-b1a6-a5d7e56b52b2
+[E 181029 01:55:33 VerifyCode:53] YPJV
+[E 181029 01:55:33 VerifyCode:62] get() takes exactly 2 arguments (3 given)
+[E 181029 01:55:33 web:1670] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/apple/PycharmProjects/Products/handlers/VerifyCode.py", line 63, in post
+        logging.error(real_image_code_text)
+    UnboundLocalError: local variable 'real_image_code_text' referenced before assignment
+[E 181029 01:55:33 web:2162] 500 POST /api/smscode (127.0.0.1) 4.59ms
