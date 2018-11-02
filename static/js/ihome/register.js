@@ -19,9 +19,11 @@ function generateUUID() {
 }
 
 function generateImageCode() {
-    var picId = generateUUID();
-    $(".image-code img").attr("src", "/api/imagecode?pcodeid="+imageCodeId+"&codeid="+imageCodeId);
-    imageCodeId = picId;
+    var preImageCodeId = imageCodeId
+
+    var imageCodeId = generateUUID();
+    $(".image-code img").attr("src", "/api/imagecode?pcodeid="+preImageCodeId+"&codeid="+imageCodeId);
+    // imageCodeId = picId;
 }
 
 function sendSMSCode() {
@@ -40,6 +42,7 @@ function sendSMSCode() {
         $(".phonecode-a").attr("onclick", "sendSMSCode();");
         return;
     }
+    //
     // $.get("/api/smscode", {mobile:mobile, code:imageCode, codeId:imageCodeId},
     //     function(data){
     //         if (0 != data.errno) {
@@ -64,15 +67,16 @@ function sendSMSCode() {
     //             }, 1000, 60);
     //         }
     // }, 'json');
-    var data = {mobile:mobile, piccode:imageCode, piccode_id:imageCodeId};
+    var data = {mobile:mobile, image_code_text:imageCode, image_code_id:imageCodeId};
     $.ajax({
         url: "/api/smscode",
         method: "POST",
-        headers: {
-            "X-XSRFTOKEN": getCookie("_xsrf"),
-        },
+        // headers: {
+        //     "X-XSRFTOKEN": getCookie("_xsrf"),
+        // },
         data: JSON.stringify(data),
         contentType: "application/json",
+        // 返回的json
         dataType: "json",
         success: function (data) {
             // data = {

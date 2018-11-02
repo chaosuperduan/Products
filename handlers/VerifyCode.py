@@ -16,11 +16,18 @@ class ImageCodeHandler(BaseHandler):
     def get(self):
         code_id = self.get_argument("codeid")
         pre_code_id = self.get_argument("pcodeid")
+        logging.error("++++++")
+        logging.error(code_id)
+        logging.error("******")
+        # 如果缓存中存在删除。
+
+
         if pre_code_id:
             try:
-                self.redis.delete("")
+                self.redis.delete("ImageCode_%s"%pre_code_id)
             except Exception as e:
                 logging.error(e)
+        #name 图片验证码名称
 
         name,text,image = captcha.generate_captcha()
         self.set_header("Content-Type", "image/jpg")
@@ -50,23 +57,45 @@ class SMSCodeHandle(BaseHandler):
         imge_code_id = self.json_args.get("image_code_id")
         logging.error(imge_code_id)
         imge_code_text = self.json_args.get("image_code_text")
-        logging.error(imge_code_text)
+        # logging.error(imge_code_text)
         if not all((mobile, imge_code_id, imge_code_text)):
             return self.write(dict(errcode=RET.PARAMERR, errmsg="参数缺失"))
         if not re.match(r"^1\d{10}$", mobile):
             return self.write(dict(errcode=RET.PARAMERR, errmsg="手机号格式错误"))
         try:
-            real_image_code_text = self.redis.get('image_code_%s',imge_code_id)
-            # logging.error(real_image_code_text)
+            real_image_code_text = self.redis.get('ImageCode_%s'%imge_code_id)
+            logging.error(real_image_code_text)
         except Exception as e:
             logging.error(e)
-            logging.error(real_image_code_text)
+            # logging.error(real_image_code_text)
             return self.write(dict(errno=RET.DBERR,errmsg="查询出错"))
         if not real_image_code_text:
             return  self.write(dict(errno=RET.NODATA,errmsg="验证码过期"))
-        # 转小写
-        if real_image_code_text.lower() != imge_code_text.lower:
+        # 删除。
+        try:
+            self.redis.delete('ImageCode_%s'%imge_code_id)
+        except Exception as e:
+            logging.error(e)
+        if real_image_code_text.lower() != imge_code_text.lower():
             return self.write(dict(errno=RET.DATAERR,errmsg="验证码错误"))
+        sql ="select count(*) counts from ih_user_profile where up_mobile=%s"
+        try:
+            ret = self.db.get(sql,mobile)
+        except Exception as e:
+            logging.error(e)
+        else:
+            if 0 != ret["counts"]:
+                return self.write(dict(errno=RET.DATAEXIST,errmsg="手机号已经注册"))
+
+
+
+        # 转小写
+
+
+
+
+
+
         #生成随机验证码。并存储
         sms_code = "%04d"%random.randint(0,9999)
         logging.error(sms_code)
