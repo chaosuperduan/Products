@@ -67,7 +67,7 @@ class StaticFileBaseHandler(tornado.web.StaticFileHandler):
     """自定义静态文件处理类, 在用户获取html页面的时候设置_xsrf的cookie"""
     logging.error("静态方法开始执行")
     def __init__(self, *args, **kwargs):
-        logging.error("静态方法开始执行")
+
         super(StaticFileBaseHandler, self).__init__(*args, **kwargs)
         self.xsrf_token
 

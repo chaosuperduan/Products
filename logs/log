@@ -3314,3 +3314,520 @@
         if not data:
     UnboundLocalError: local variable 'data' referenced before assignment
 [E 181119 02:19:15 web:2162] 500 GET /api/imagecode?pcodeid=&codeid=5a728194-c4ea-44ce-b1aa-03c3d27f5e6d (127.0.0.1) 2.48ms
+[I 181120 02:22:10 web:2162] 304 GET /register.html (127.0.0.1) 10.85ms
+[I 181120 02:22:10 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.13ms
+[I 181120 02:22:10 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.03ms
+[I 181120 02:22:10 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.86ms
+[I 181120 02:22:10 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.03ms
+[I 181120 02:22:10 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.46ms
+[I 181120 02:22:10 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 1.27ms
+[I 181120 02:22:10 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.03ms
+[I 181120 02:22:10 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 1.01ms
+[I 181120 02:22:10 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.93ms
+[I 181120 02:22:10 web:2162] 304 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 1.62ms
+[E 181120 02:22:10 session:17] 这儿执行了
+[E 181120 02:22:10 web:1670] Uncaught exception GET /api/imagecode?pcodeid=&codeid=b993f357-4544-412e-a948-5fa5142be8ff (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=&codeid=b993f357-4544-412e-a948-5fa5142be8ff', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:22:10 web:2162] 500 GET /api/imagecode?pcodeid=&codeid=b993f357-4544-412e-a948-5fa5142be8ff (127.0.0.1) 4.05ms
+[E 181120 02:22:14 session:17] 这儿执行了
+[E 181120 02:22:14 web:1670] Uncaught exception GET /api/imagecode?pcodeid=b993f357-4544-412e-a948-5fa5142be8ff&codeid=9f06134a-0fa5-46d5-b92a-6569e9bc3859 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=b993f357-4544-412e-a948-5fa5142be8ff&codeid=9f06134a-0fa5-46d5-b92a-6569e9bc3859', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:22:14 web:2162] 500 GET /api/imagecode?pcodeid=b993f357-4544-412e-a948-5fa5142be8ff&codeid=9f06134a-0fa5-46d5-b92a-6569e9bc3859 (127.0.0.1) 1.40ms
+[E 181120 02:22:15 session:17] 这儿执行了
+[E 181120 02:22:15 web:1670] Uncaught exception GET /api/imagecode?pcodeid=9f06134a-0fa5-46d5-b92a-6569e9bc3859&codeid=a99e313c-68eb-4460-bc26-1fba5b9e576e (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=9f06134a-0fa5-46d5-b92a-6569e9bc3859&codeid=a99e313c-68eb-4460-bc26-1fba5b9e576e', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:22:15 web:2162] 500 GET /api/imagecode?pcodeid=9f06134a-0fa5-46d5-b92a-6569e9bc3859&codeid=a99e313c-68eb-4460-bc26-1fba5b9e576e (127.0.0.1) 1.14ms
+[E 181120 02:22:18 session:17] 这儿执行了
+[E 181120 02:22:18 web:1670] Uncaught exception GET /api/imagecode?pcodeid=a99e313c-68eb-4460-bc26-1fba5b9e576e&codeid=1d6853a4-f01b-4795-85d8-1a601b16cdb3 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=a99e313c-68eb-4460-bc26-1fba5b9e576e&codeid=1d6853a4-f01b-4795-85d8-1a601b16cdb3', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:22:18 web:2162] 500 GET /api/imagecode?pcodeid=a99e313c-68eb-4460-bc26-1fba5b9e576e&codeid=1d6853a4-f01b-4795-85d8-1a601b16cdb3 (127.0.0.1) 1.03ms
+[E 181120 02:22:19 session:17] 这儿执行了
+[E 181120 02:22:19 web:1670] Uncaught exception GET /api/imagecode?pcodeid=1d6853a4-f01b-4795-85d8-1a601b16cdb3&codeid=d31c285a-c735-4ecc-84a7-e22ffa1b648c (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=1d6853a4-f01b-4795-85d8-1a601b16cdb3&codeid=d31c285a-c735-4ecc-84a7-e22ffa1b648c', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:22:19 web:2162] 500 GET /api/imagecode?pcodeid=1d6853a4-f01b-4795-85d8-1a601b16cdb3&codeid=d31c285a-c735-4ecc-84a7-e22ffa1b648c (127.0.0.1) 1.48ms
+[E 181120 02:22:19 session:17] 这儿执行了
+[E 181120 02:22:19 web:1670] Uncaught exception GET /api/imagecode?pcodeid=d31c285a-c735-4ecc-84a7-e22ffa1b648c&codeid=60937e44-ac90-4edc-bb80-7aca973ec23a (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=d31c285a-c735-4ecc-84a7-e22ffa1b648c&codeid=60937e44-ac90-4edc-bb80-7aca973ec23a', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:22:19 web:2162] 500 GET /api/imagecode?pcodeid=d31c285a-c735-4ecc-84a7-e22ffa1b648c&codeid=60937e44-ac90-4edc-bb80-7aca973ec23a (127.0.0.1) 1.45ms
+[I 181120 02:24:42 web:2162] 304 GET /register.html (127.0.0.1) 0.70ms
+[I 181120 02:24:42 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.24ms
+[I 181120 02:24:42 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.75ms
+[I 181120 02:24:42 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.70ms
+[I 181120 02:24:42 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.15ms
+[I 181120 02:24:42 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.95ms
+[I 181120 02:24:42 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.90ms
+[I 181120 02:24:42 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 1.09ms
+[I 181120 02:24:42 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.77ms
+[I 181120 02:24:42 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.20ms
+[E 181120 02:24:42 session:17] 这儿执行了
+[E 181120 02:24:42 web:1670] Uncaught exception GET /api/imagecode?pcodeid=&codeid=b12c9910-c192-4477-92cf-87795cf05ac2 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=&codeid=b12c9910-c192-4477-92cf-87795cf05ac2', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:24:42 web:2162] 500 GET /api/imagecode?pcodeid=&codeid=b12c9910-c192-4477-92cf-87795cf05ac2 (127.0.0.1) 1.81ms
+[E 181120 02:25:20 session:17] 这儿执行了
+[E 181120 02:25:20 web:1670] Uncaught exception GET /api/imagecode?pcodeid=b12c9910-c192-4477-92cf-87795cf05ac2&codeid=f9d4cfdd-498a-48e7-a209-3cce7f96d883 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=b12c9910-c192-4477-92cf-87795cf05ac2&codeid=f9d4cfdd-498a-48e7-a209-3cce7f96d883', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:25:20 web:2162] 500 GET /api/imagecode?pcodeid=b12c9910-c192-4477-92cf-87795cf05ac2&codeid=f9d4cfdd-498a-48e7-a209-3cce7f96d883 (127.0.0.1) 1.61ms
+[I 181120 02:25:24 web:2162] 304 GET /register.html (127.0.0.1) 0.71ms
+[I 181120 02:25:24 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 0.99ms
+[I 181120 02:25:24 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.66ms
+[I 181120 02:25:24 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.84ms
+[I 181120 02:25:24 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.94ms
+[I 181120 02:25:24 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.82ms
+[I 181120 02:25:24 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.87ms
+[I 181120 02:25:24 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.91ms
+[I 181120 02:25:24 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.82ms
+[I 181120 02:25:24 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.81ms
+[E 181120 02:25:24 session:17] 这儿执行了
+[E 181120 02:25:24 web:1670] Uncaught exception GET /api/imagecode?pcodeid=&codeid=2e1a9146-abce-451c-8e2c-5d0c1d072863 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=&codeid=2e1a9146-abce-451c-8e2c-5d0c1d072863', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:25:24 web:2162] 500 GET /api/imagecode?pcodeid=&codeid=2e1a9146-abce-451c-8e2c-5d0c1d072863 (127.0.0.1) 1.25ms
+[E 181120 02:25:26 session:17] 这儿执行了
+[E 181120 02:25:26 web:1670] Uncaught exception GET /api/imagecode?pcodeid=2e1a9146-abce-451c-8e2c-5d0c1d072863&codeid=010261b4-e328-4152-866a-2589f94aea35 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=2e1a9146-abce-451c-8e2c-5d0c1d072863&codeid=010261b4-e328-4152-866a-2589f94aea35', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:25:26 web:2162] 500 GET /api/imagecode?pcodeid=2e1a9146-abce-451c-8e2c-5d0c1d072863&codeid=010261b4-e328-4152-866a-2589f94aea35 (127.0.0.1) 1.57ms
+[E 181120 02:25:27 session:17] 这儿执行了
+[E 181120 02:25:27 web:1670] Uncaught exception GET /api/imagecode?pcodeid=010261b4-e328-4152-866a-2589f94aea35&codeid=c50ee671-f531-4586-bc48-f9f08845e2a8 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=010261b4-e328-4152-866a-2589f94aea35&codeid=c50ee671-f531-4586-bc48-f9f08845e2a8', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:25:27 web:2162] 500 GET /api/imagecode?pcodeid=010261b4-e328-4152-866a-2589f94aea35&codeid=c50ee671-f531-4586-bc48-f9f08845e2a8 (127.0.0.1) 1.70ms
+[E 181120 02:25:28 session:17] 这儿执行了
+[E 181120 02:25:28 web:1670] Uncaught exception GET /api/imagecode?pcodeid=c50ee671-f531-4586-bc48-f9f08845e2a8&codeid=ee63695b-7cbd-4fe6-b616-4894690c2f54 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=c50ee671-f531-4586-bc48-f9f08845e2a8&codeid=ee63695b-7cbd-4fe6-b616-4894690c2f54', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:25:28 web:2162] 500 GET /api/imagecode?pcodeid=c50ee671-f531-4586-bc48-f9f08845e2a8&codeid=ee63695b-7cbd-4fe6-b616-4894690c2f54 (127.0.0.1) 1.51ms
+[E 181120 02:25:28 session:17] 这儿执行了
+[E 181120 02:25:28 web:1670] Uncaught exception GET /api/imagecode?pcodeid=ee63695b-7cbd-4fe6-b616-4894690c2f54&codeid=8f372522-44b9-4b1a-9fe7-f8125dcfea25 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=ee63695b-7cbd-4fe6-b616-4894690c2f54&codeid=8f372522-44b9-4b1a-9fe7-f8125dcfea25', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:25:28 web:2162] 500 GET /api/imagecode?pcodeid=ee63695b-7cbd-4fe6-b616-4894690c2f54&codeid=8f372522-44b9-4b1a-9fe7-f8125dcfea25 (127.0.0.1) 1.40ms
+[E 181120 02:25:44 session:17] 这儿执行了
+[E 181120 02:25:44 web:1670] Uncaught exception GET /api/imagecode?pcodeid=8f372522-44b9-4b1a-9fe7-f8125dcfea25&codeid=d500c388-8d73-4efa-b7d1-14dcebab5bdf (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=8f372522-44b9-4b1a-9fe7-f8125dcfea25&codeid=d500c388-8d73-4efa-b7d1-14dcebab5bdf', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:25:44 web:2162] 500 GET /api/imagecode?pcodeid=8f372522-44b9-4b1a-9fe7-f8125dcfea25&codeid=d500c388-8d73-4efa-b7d1-14dcebab5bdf (127.0.0.1) 1.41ms
+[E 181120 02:26:23 session:17] 这儿执行了
+[E 181120 02:26:23 web:1670] Uncaught exception GET /api/imagecode?pcodeid=&codeid=bc2245b8-0df6-48b9-b5fb-ba523346b2c4 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=&codeid=bc2245b8-0df6-48b9-b5fb-ba523346b2c4', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:26:23 web:2162] 500 GET /api/imagecode?pcodeid=&codeid=bc2245b8-0df6-48b9-b5fb-ba523346b2c4 (127.0.0.1) 1.27ms
+[I 181120 02:26:48 web:2162] 200 GET /register.html (127.0.0.1) 0.72ms
+[I 181120 02:26:48 web:2162] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.97ms
+[I 181120 02:26:48 web:2162] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.78ms
+[I 181120 02:26:48 web:2162] 200 GET /static/css/reset.css (127.0.0.1) 0.74ms
+[I 181120 02:26:48 web:2162] 200 GET /static/css/ihome/main.css (127.0.0.1) 0.76ms
+[I 181120 02:26:48 web:2162] 200 GET /static/css/ihome/register.css (127.0.0.1) 1.05ms
+[I 181120 02:26:48 web:2162] 200 GET /static/images/logo@128x59.png (127.0.0.1) 1.07ms
+[I 181120 02:26:48 web:2162] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.88ms
+[I 181120 02:26:48 web:2162] 200 GET /static/js/ihome/register.js (127.0.0.1) 0.75ms
+[I 181120 02:26:48 web:2162] 200 GET /static/js/jquery.min.js (127.0.0.1) 5.81ms
+[E 181120 02:26:48 session:17] 这儿执行了
+[E 181120 02:26:48 web:1670] Uncaught exception GET /api/imagecode?pcodeid=&codeid=3e4c4744-d484-439c-99cf-a36f66a14f30 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=&codeid=3e4c4744-d484-439c-99cf-a36f66a14f30', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:26:48 web:2162] 500 GET /api/imagecode?pcodeid=&codeid=3e4c4744-d484-439c-99cf-a36f66a14f30 (127.0.0.1) 1.53ms
+[I 181120 02:26:48 web:2162] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 1.58ms
+[I 181120 02:26:48 web:2162] 200 GET /favicon.ico (127.0.0.1) 5.86ms
+[E 181120 02:26:51 session:17] 这儿执行了
+[E 181120 02:26:51 web:1670] Uncaught exception GET /api/imagecode?pcodeid=3e4c4744-d484-439c-99cf-a36f66a14f30&codeid=dc631ff9-874a-4567-83b5-e36d9d0b0743 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=3e4c4744-d484-439c-99cf-a36f66a14f30&codeid=dc631ff9-874a-4567-83b5-e36d9d0b0743', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 30, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:26:51 web:2162] 500 GET /api/imagecode?pcodeid=3e4c4744-d484-439c-99cf-a36f66a14f30&codeid=dc631ff9-874a-4567-83b5-e36d9d0b0743 (127.0.0.1) 9.82ms
+[I 181120 02:27:49 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/BaseHandler.py modified; restarting server
+[I 181120 02:27:51 web:2162] 304 GET /register.html (127.0.0.1) 6.21ms
+[I 181120 02:27:51 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.20ms
+[I 181120 02:27:51 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.63ms
+[I 181120 02:27:51 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.72ms
+[I 181120 02:27:51 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 2.04ms
+[I 181120 02:27:51 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.11ms
+[I 181120 02:27:51 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.02ms
+[I 181120 02:27:51 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.85ms
+[I 181120 02:27:51 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.69ms
+[I 181120 02:27:51 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.80ms
+[E 181120 02:27:51 VerifyCode:19] ++++++
+[E 181120 02:27:51 VerifyCode:20] 078c85c6-cab4-4cf1-8886-83d07a330ea2
+[E 181120 02:27:51 VerifyCode:21] ******
+[I 181120 02:27:51 web:2162] 200 GET /api/imagecode?pcodeid=&codeid=078c85c6-cab4-4cf1-8886-83d07a330ea2 (127.0.0.1) 32.87ms
+[W 181120 02:28:11 web:1667] 403 POST /api/smscode (127.0.0.1): '_xsrf' argument missing from POST
+[W 181120 02:28:11 web:2162] 403 POST /api/smscode (127.0.0.1) 1.29ms
+[I 181120 02:30:11 autoreload:199] /Users/apple/PycharmProjects/Products/utils/session.py modified; restarting server
+[I 181120 02:30:14 web:2162] 304 GET /register.html (127.0.0.1) 6.65ms
+[I 181120 02:30:14 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.34ms
+[I 181120 02:30:14 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.70ms
+[I 181120 02:30:14 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.65ms
+[I 181120 02:30:14 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.77ms
+[I 181120 02:30:14 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.00ms
+[I 181120 02:30:14 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.10ms
+[I 181120 02:30:14 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.96ms
+[I 181120 02:30:14 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.81ms
+[I 181120 02:30:14 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.88ms
+[E 181120 02:30:14 VerifyCode:19] ++++++
+[E 181120 02:30:14 VerifyCode:20] e4b6e3eb-113f-413c-b2f8-375ba75a14c9
+[E 181120 02:30:14 VerifyCode:21] ******
+[I 181120 02:30:14 web:2162] 200 GET /api/imagecode?pcodeid=&codeid=e4b6e3eb-113f-413c-b2f8-375ba75a14c9 (127.0.0.1) 19.95ms
+[I 181120 02:30:28 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/BaseHandler.py modified; restarting server
+[I 181120 02:30:34 web:2162] 304 GET /register.html (127.0.0.1) 6.68ms
+[I 181120 02:30:34 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.06ms
+[I 181120 02:30:34 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.65ms
+[I 181120 02:30:34 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.75ms
+[I 181120 02:30:34 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.65ms
+[I 181120 02:30:34 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.94ms
+[I 181120 02:30:35 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 1.11ms
+[I 181120 02:30:35 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.78ms
+[I 181120 02:30:35 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.66ms
+[I 181120 02:30:35 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 1.01ms
+[E 181120 02:30:35 session:17] 这儿执行了
+[E 181120 02:30:35 session:23] 4c1a33e165b64e2ba89736dfa6b497bf
+[E 181120 02:30:35 web:1670] Uncaught exception GET /api/imagecode?pcodeid=&codeid=4252f85a-45b1-4491-82ec-8ad72ea0fdf1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=&codeid=4252f85a-45b1-4491-82ec-8ad72ea0fdf1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 31, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:30:35 web:2162] 500 GET /api/imagecode?pcodeid=&codeid=4252f85a-45b1-4491-82ec-8ad72ea0fdf1 (127.0.0.1) 2.91ms
+[I 181120 02:51:57 autoreload:199] /Users/apple/PycharmProjects/Products/handlers/BaseHandler.py modified; restarting server
+[I 181120 02:52:01 web:2162] 304 GET /register.html (127.0.0.1) 6.70ms
+[I 181120 02:52:01 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.05ms
+[I 181120 02:52:01 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.71ms
+[I 181120 02:52:01 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.86ms
+[I 181120 02:52:01 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.67ms
+[I 181120 02:52:01 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.33ms
+[I 181120 02:52:01 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.98ms
+[I 181120 02:52:01 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.93ms
+[I 181120 02:52:01 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.92ms
+[I 181120 02:52:01 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.69ms
+[E 181120 02:52:01 session:17] 这儿执行了
+[E 181120 02:52:01 session:23] 5b78f2036e0145bfafea514941528844
+[E 181120 02:52:01 web:1670] Uncaught exception GET /api/imagecode?pcodeid=&codeid=f1723ab0-6754-4500-9afb-ad5fd2afd862 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=&codeid=f1723ab0-6754-4500-9afb-ad5fd2afd862', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 31, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:52:01 web:2162] 500 GET /api/imagecode?pcodeid=&codeid=f1723ab0-6754-4500-9afb-ad5fd2afd862 (127.0.0.1) 2.68ms
+[I 181120 02:53:45 autoreload:199] /Users/apple/PycharmProjects/Products/utils/session.py modified; restarting server
+[I 181120 02:54:24 web:2162] 304 GET /register.html (127.0.0.1) 6.69ms
+[I 181120 02:54:24 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 0.96ms
+[I 181120 02:54:24 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.10ms
+[I 181120 02:54:24 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.82ms
+[I 181120 02:54:24 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.80ms
+[I 181120 02:54:24 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.87ms
+[I 181120 02:54:24 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.66ms
+[I 181120 02:54:24 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.95ms
+[I 181120 02:54:24 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.74ms
+[I 181120 02:54:24 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.90ms
+[E 181120 02:54:24 session:17] 这儿执行了
+[E 181120 02:54:24 session:23] 90257468aa0c4231997fa593ee109d3d
+[E 181120 02:54:24 web:1670] Uncaught exception GET /api/imagecode?pcodeid=&codeid=34c3f956-ad1d-4906-8259-85b772d38194 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=&codeid=34c3f956-ad1d-4906-8259-85b772d38194', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 27, in prepare
+        self.xsrf_token
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1313, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/Users/apple/PycharmProjects/Products/venv/lib/python2.7/site-packages/tornado/web.py", line 1233, in current_user
+        self._current_user = self.get_current_user()
+      File "/Users/apple/PycharmProjects/Products/handlers/BaseHandler.py", line 39, in get_current_user
+        self.session = Session(self)
+      File "/Users/apple/PycharmProjects/Products/utils/session.py", line 31, in __init__
+        if not data:
+    UnboundLocalError: local variable 'data' referenced before assignment
+[E 181120 02:54:24 web:2162] 500 GET /api/imagecode?pcodeid=&codeid=34c3f956-ad1d-4906-8259-85b772d38194 (127.0.0.1) 2.65ms
+[I 181120 02:55:53 autoreload:199] /Users/apple/PycharmProjects/Products/utils/session.py modified; restarting server
+[I 181120 02:56:00 web:2162] 304 GET /register.html (127.0.0.1) 6.74ms
+[I 181120 02:56:00 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.10ms
+[I 181120 02:56:00 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.69ms
+[I 181120 02:56:00 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.70ms
+[I 181120 02:56:00 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 2.00ms
+[I 181120 02:56:00 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.00ms
+[I 181120 02:56:00 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.81ms
+[I 181120 02:56:00 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.70ms
+[I 181120 02:56:00 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.04ms
+[I 181120 02:56:00 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.76ms
+[E 181120 02:56:00 VerifyCode:19] ++++++
+[E 181120 02:56:00 VerifyCode:20] e25c8457-3db5-4960-82f9-e73f1b862e8a
+[E 181120 02:56:00 VerifyCode:21] ******
+[I 181120 02:56:00 web:2162] 200 GET /api/imagecode?pcodeid=&codeid=e25c8457-3db5-4960-82f9-e73f1b862e8a (127.0.0.1) 20.52ms
+[I 181120 02:56:02 web:2162] 304 GET /register.html (127.0.0.1) 0.79ms
+[I 181120 02:56:02 web:2162] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.05ms
+[I 181120 02:56:02 web:2162] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.69ms
+[I 181120 02:56:02 web:2162] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.93ms
+[I 181120 02:56:02 web:2162] 304 GET /static/css/reset.css (127.0.0.1) 0.63ms
+[I 181120 02:56:02 web:2162] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.69ms
+[I 181120 02:56:02 web:2162] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.99ms
+[I 181120 02:56:02 web:2162] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.78ms
+[I 181120 02:56:02 web:2162] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.13ms
+[I 181120 02:56:02 web:2162] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.85ms
+[E 181120 02:56:02 VerifyCode:19] ++++++
+[E 181120 02:56:02 VerifyCode:20] 7861e9b4-61ab-4759-9043-f04e2d5d0349
+[E 181120 02:56:02 VerifyCode:21] ******
+[I 181120 02:56:02 web:2162] 200 GET /api/imagecode?pcodeid=&codeid=7861e9b4-61ab-4759-9043-f04e2d5d0349 (127.0.0.1) 9.07ms
+[E 181120 02:57:29 VerifyCode:19] ++++++
+[E 181120 02:57:29 VerifyCode:20] 2bfb73c2-6453-412f-b5e4-a65ded7d1708
+[E 181120 02:57:29 VerifyCode:21] ******
+[I 181120 02:57:29 web:2162] 200 GET /api/imagecode?pcodeid=7861e9b4-61ab-4759-9043-f04e2d5d0349&codeid=2bfb73c2-6453-412f-b5e4-a65ded7d1708 (127.0.0.1) 10.47ms
+[E 181120 02:57:39 VerifyCode:56] 18666208770
+[E 181120 02:57:39 VerifyCode:58] 2bfb73c2-6453-412f-b5e4-a65ded7d1708
+[E 181120 02:57:39 VerifyCode:60] pimj
+[E 181120 02:57:39 VerifyCode:61] &&&&&&&&&&&&&&
+[E 181120 02:57:39 VerifyCode:68] ^^^^^^^^^^^^^^
+[E 181120 02:57:39 VerifyCode:69] PIMJ
+[E 181120 02:57:39 VerifyCode:70] ^^^^^^^^^^^^^^
+[E 181120 02:57:39 VerifyCode:75] %%%%%%%%%%%%%
+[E 181120 02:57:39 VerifyCode:76] PIMJ
+[E 181120 02:57:39 VerifyCode:77] %%%%%%%%%%%%%
+[E 181120 02:57:39 VerifyCode:91] 'Connection' object has no attribute 'get'
+[E 181120 02:57:39 VerifyCode:107] 2612
+[I 181120 02:57:39 web:2162] 200 POST /api/smscode (127.0.0.1) 11.61ms
