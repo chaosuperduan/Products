@@ -57,18 +57,24 @@ class SMSCodeHandle(BaseHandler):
         imge_code_id = self.json_args.get("image_code_id")
         logging.error(imge_code_id)
         imge_code_text = self.json_args.get("image_code_text")
-        # logging.error(imge_code_text)
+        logging.error(imge_code_text)
+        logging.error("&&&&&&&&&&&&&&")
         if not all((mobile, imge_code_id, imge_code_text)):
             return self.write(dict(errcode=RET.PARAMERR, errmsg="参数缺失"))
         if not re.match(r"^1\d{10}$", mobile):
             return self.write(dict(errcode=RET.PARAMERR, errmsg="手机号格式错误"))
         try:
             real_image_code_text = self.redis.get('ImageCode_%s'%imge_code_id)
+            logging.error("^^^^^^^^^^^^^^")
             logging.error(real_image_code_text)
+            logging.error("^^^^^^^^^^^^^^")
         except Exception as e:
             logging.error(e)
             # logging.error(real_image_code_text)
             return self.write(dict(errno=RET.DBERR,errmsg="查询出错"))
+        logging.error("%%%%%%%%%%%%%")
+        logging.error(real_image_code_text)
+        logging.error("%%%%%%%%%%%%%")
         if not real_image_code_text:
             return  self.write(dict(errno=RET.NODATA,errmsg="验证码过期"))
         # 删除。

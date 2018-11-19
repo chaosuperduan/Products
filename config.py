@@ -8,8 +8,8 @@ settings = {
     "static_path":os.path.join(os.path.dirname(__file__),"static"),
     "template_path":os.path.join(os.path.dirname(__file__),"template"),
     "debug":True,
-    "cookie_secret":"kb8LwR4MSASQzT+HWLqy4YWnN1DJcEKJrjblnr77uSw=",
-    "xsrf_cookies":False,
+    "cookie_secret":"FhLXI+BRRomtuaG47hoXEg3JCdi0BUi8vrpWmoxaoyI=",
+    "xsrf_cookies":True,
 }
 #mysql
 mysql_options = dict(
@@ -32,4 +32,5 @@ log_file = os.path.join(os.path.dirname(__file__),"logs/log")
 
 #设置日志等级。
 log_level = "debug"
+session_expires_seconds = 86400
 

@@ -19,11 +19,18 @@ function generateUUID() {
 }
 
 function generateImageCode() {
-    var preImageCodeId = imageCodeId
+    console.log("**!@###")
+    console.log(imageCodeId)
+    console.log("**!@###")
 
-    var imageCodeId = generateUUID();
-    $(".image-code img").attr("src", "/api/imagecode?pcodeid="+preImageCodeId+"&codeid="+imageCodeId);
-    // imageCodeId = picId;
+    var preImageCodeId =  generateUUID()
+    console.log(preImageCodeId)
+
+
+
+    $(".image-code img").attr("src", "/api/imagecode?pcodeid="+imageCodeId+"&codeid="+preImageCodeId);
+    imageCodeId = preImageCodeId
+
 }
 
 function sendSMSCode() {
@@ -36,6 +43,7 @@ function sendSMSCode() {
         return;
     } 
     var imageCode = $("#imagecode").val();
+
     if (!imageCode) {
         $("#image-code-err span").html("请填写验证码！");
         $("#image-code-err").show();
@@ -68,12 +76,15 @@ function sendSMSCode() {
     //         }
     // }, 'json');
     var data = {mobile:mobile, image_code_text:imageCode, image_code_id:imageCodeId};
+    console.log(data)
+
+
     $.ajax({
         url: "/api/smscode",
         method: "POST",
-        // headers: {
-        //     "X-XSRFTOKEN": getCookie("_xsrf"),
-        // },
+        headers: {
+            "X-XSRFTOKEN": getCookie("_xsrf"),
+        },
         data: JSON.stringify(data),
         contentType: "application/json",
         // 返回的json
@@ -170,9 +181,9 @@ $(document).ready(function() {
             data: json_data,
             contentType: "application/json", // 告诉后端服务器，发送的请求数据是json格式的
             dataType: "json",   // 告诉前端，收到的响应数据是json格式的
-            headers: {
-                "X-XSRFTOKEN": getCookie("_xsrf"),
-            },
+            // headers: {
+            //     "X-XSRFTOKEN": getCookie("_xsrf"),
+            // },
             success: function (data) {
                 if ("0" == data.errcode) {
                     location.href = "/";
@@ -216,33 +227,5 @@ $(document).ready(function() {
 //         x.value
 //         dict[x.name] = x.value
 //     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 })

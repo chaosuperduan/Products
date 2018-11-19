@@ -1,9 +1,12 @@
 # coding:utf-8
-from tornado.web import  RequestHandler
+from tornado.web import RequestHandler,StaticFileHandler
+import tornado.web
 import logging
 import json
-
+from tornado.web import StaticFileHandler
+from utils.session import Session
 class BaseHandler(RequestHandler):
+
     """
     handle基类
     """
@@ -21,7 +24,7 @@ class BaseHandler(RequestHandler):
         """设置默认json格式"""
         self.set_header("Content-Type", "application/json; charset=UTF-8")
     def prepare(self):
-        # self.xsrf_token
+        self.xsrf_token
         #预解析json
         if self.request.headers.get("Content-Type", "").startswith("application/json"):
             self.json_args = json.loads(self.request.body)
@@ -31,10 +34,10 @@ class BaseHandler(RequestHandler):
 
 
 
-    # def get_current_user(self):
-    #     """判断用户是否登录"""
-    #     self.session = Session(self)
-    #     return self.session.data
+    def get_current_user(self):
+        """判断用户是否登录"""
+        self.session = Session(self)
+        return self.session.data
 
 
 
@@ -54,6 +57,18 @@ class BaseHandler(RequestHandler):
 
 
 
+# class StaticFileBaseHandler(StaticFileHandler):
+#     """自定义静态文件处理类, 在用户获取html页面的时候设置_xsrf的cookie"""
+#     def __init__(self, *args, **kwargs):
+#         super(StaticFileBaseHandler, self).__init__(*args, **kwargs)
+#         self.xsrf_token
 
+class StaticFileBaseHandler(tornado.web.StaticFileHandler):
+    """自定义静态文件处理类, 在用户获取html页面的时候设置_xsrf的cookie"""
+    logging.error("静态方法开始执行")
+    def __init__(self, *args, **kwargs):
+        logging.error("静态方法开始执行")
+        super(StaticFileBaseHandler, self).__init__(*args, **kwargs)
+        self.xsrf_token
 
 
