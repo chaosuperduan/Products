@@ -2,7 +2,7 @@
 # setting有一个静态文件目录。
 import os
 #Application配置。
-
+#
 settings = {
 
     "static_path":os.path.join(os.path.dirname(__file__),"static"),
@@ -11,6 +11,13 @@ settings = {
     "cookie_secret":"FhLXI+BRRomtuaG47hoXEg3JCdi0BUi8vrpWmoxaoyI=",
     "xsrf_cookies":True,
 }
+# settings = dict(
+#         static_path=os.path.join(os.path.dirname(__file__), "static"),
+#
+#         cookie_secret="FhLXI+BRRomtuaG47hoXEg3JCdi0BUi8vrpWmoxaoyI=",
+#         xsrf_cookies=True,
+#         debug=True
+#     )
 #mysql
 mysql_options = dict(
     host='127.0.0.1',
@@ -34,3 +41,5 @@ log_file = os.path.join(os.path.dirname(__file__),"logs/log")
 log_level = "debug"
 session_expires_seconds = 86400
 
+#配置一个密码混淆的值
+passwd_hash_key = "ihome@^*"

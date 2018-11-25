@@ -4,6 +4,7 @@ function getCookie(name) {
 }
 
 $(document).ready(function() {
+    console.log("djfkjk")
     $("#mobile").focus(function(){
         $("#mobile-err").hide();
     });
@@ -27,6 +28,7 @@ $(document).ready(function() {
         var data = {};
         $(this).serializeArray().map(function(x){data[x.name] = x.value;});
         var jsonData = JSON.stringify(data);
+        console.log("登录测试0000")
         $.ajax({
             url:"/api/login",
             type:"POST",
@@ -35,10 +37,15 @@ $(document).ready(function() {
             dataType: "json",
             headers:{
                 "X-XSRFTOKEN":getCookie("_xsrf"),
+
             },
             success: function (data) {
-                if ("0" == data.errcode) {
-                    location.href = "/";
+                console.log("登录成功")
+                console.log(data)
+
+                if ("0"== data.errno) {
+                    console.log("登录--成功")
+                    location.href = "/index.html";
                     return;
                 }
                 else {

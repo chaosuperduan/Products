@@ -174,16 +174,18 @@ $(document).ready(function() {
         $(".form-register").serializeArray().map(function(x){data[x.name]=x.value})
         // 把data变量转为josn格式字符串
         var json_data = JSON.stringify(data)
+        console.log(json_data)
         //向后端发送请求
         $.ajax({
             url: "/api/register",
             method: "POST",
+
             data: json_data,
             contentType: "application/json", // 告诉后端服务器，发送的请求数据是json格式的
             dataType: "json",   // 告诉前端，收到的响应数据是json格式的
-            // headers: {
-            //     "X-XSRFTOKEN": getCookie("_xsrf"),
-            // },
+            headers: {
+                "X-XSRFTOKEN": getCookie("_xsrf"),
+            },
             success: function (data) {
                 if ("0" == data.errcode) {
                     location.href = "/";

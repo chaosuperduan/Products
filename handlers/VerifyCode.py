@@ -106,7 +106,7 @@ class SMSCodeHandle(BaseHandler):
         sms_code = "%04d"%random.randint(0,9999)
         logging.error(sms_code)
         try:
-            self.redis.setex("sm_code_%s"%mobile,SMS_CODE_EXPIRES_SECONDS,sms_code)
+            self.redis.setex("sms_code_%s"%mobile,SMS_CODE_EXPIRES_SECONDS,sms_code)
         except Exception as e:
             logging.error(e)
             return self.write(dict(errno=RET.DBERR,errmsg="生成短信验证码错误"))
